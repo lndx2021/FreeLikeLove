@@ -1,0 +1,269 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LoveLNU2.4 | Colors</title>
+    <link href="2bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        html{margin:0px;padding:0px;}
+        *{margin:0px;padding:0px;}
+        a{color:#5e5e5e;text-decoration:none}
+    </style>
+</head>
+    <link href="2colorbook.css" rel="stylesheet">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 col-xs-12 col-sm-offset-3 text-center ">
+                <h2 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-weight: 600; margin-top: 23px;">Color Selection</h2>
+                <p style="margin-top:11px;">
+                    <small style="color: grey;" class="text-info">点"学号"旁人像纠正颜色; 点"姓名"旁人像切换出/入校.</small>
+                </p>
+                <div class="form-group">
+                    <select name="" class="form-control" id="callbook" style="margin-top: 23px;" onchange="window.location=this.value;" >
+                        <optgroup label="色彩系统">
+                            <option value="changeColor.html" > &nbsp;# W3C十六色色盘（推荐）</option>
+                            <option value="changeColor2.html" > &nbsp;# IE4+预命名颜色（不推荐）</option>
+                            <option value="http://www.lnu.edu.cn/" > &nbsp;# 216 安全色色盘（极不推荐）</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:maroon" id="btn1"></div>
+                    <script type="text/javascript">
+                        document.getElementById("btn1").onclick = function () {            
+                            localStorage.color = document.getElementById("btn1").style.background;
+                            location.href="maroon1.html"}
+                    </script>
+                    <div class="panel-body text-left">
+                        <p class="panel-body_Color_Category">0001</p>
+                        <p class="panel-body_small"><small class="colorcode" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">MAROON</small></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:red"  id="btn2"></div>
+                    <script type="text/javascript">
+                        document.getElementById("btn2").onclick = function () {            
+                            localStorage.color = document.getElementById("btn2").style.background;
+                            location.href="red1.html"}
+                    </script>
+                    <div class="panel-body text-left">
+                        <p class="panel-body_Color_Category">0002</p>
+                        <p class="panel-body_small"><small class="colorcode" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">RED</small></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:yellow"  id="btn3"></div>
+                    <script type="text/javascript">
+                        document.getElementById("btn3").onclick = function () {            
+                            localStorage.color = document.getElementById("btn3").style.background;
+                            location.href="yellow1.html"}
+                    </script>
+                    <div class="panel-body text-left">
+                        <p class="panel-body_Color_Category">0003</p>
+                        <p class="panel-body_small"><small class="colorcode" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">YELLOW</small></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:olive"  id="btn4"></div>
+                    <script type="text/javascript">
+                        document.getElementById("btn4").onclick = function () {            
+                            localStorage.color = document.getElementById("btn4").style.background;
+                            location.href="olive1.html"}
+                    </script>
+                    <div class="panel-body text-left">
+                        <p class="panel-body_Color_Category">0004</p>
+                        <p class="panel-body_small"><small class="colorcode" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">OLIVE</small></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:green"  id="btn5"></div>
+                    <script type="text/javascript">
+                        document.getElementById("btn5").onclick = function () {            
+                            localStorage.color = document.getElementById("btn5").style.background;
+                            location.href="green1.html"}
+                    </script>
+                    <div class="panel-body text-left">
+                        <p class="panel-body_Color_Category">0005</p>
+                        <p class="panel-body_small"><small class="colorcode" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">GREEN</small></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:lime"  id="btn6"></div>
+                    <script type="text/javascript">
+                        document.getElementById("btn6").onclick = function () {            
+                            localStorage.color = document.getElementById("btn6").style.background;
+                            location.href="lime1.html"}
+                    </script>
+                    <div class="panel-body text-left">
+                        <p class="panel-body_Color_Category">0006</p>
+                        <p class="panel-body_small"><small class="colorcode" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">LIME</small></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:teal"  id="btn7"></div>
+                    <script type="text/javascript">
+                        document.getElementById("btn7").onclick = function () {            
+                            localStorage.color = document.getElementById("btn7").style.background;
+                            location.href="teal1.html"}
+                    </script>
+                    <div class="panel-body text-left">
+                        <p class="panel-body_Color_Category">0007</p>
+                        <p class="panel-body_small"><small class="colorcode" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">TEAL</small></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:aqua"  id="btn8"></div>
+                    <script type="text/javascript">
+                        document.getElementById("btn8").onclick = function () {            
+                            localStorage.color = document.getElementById("btn8").style.background;
+                            location.href="aqua1.html"}
+                    </script>
+                    <div class="panel-body text-left">
+                        <p class="panel-body_Color_Category">0008</p>
+                        <p class="panel-body_small"><small class="colorcode" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">AQUA</small></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:blue"  id="btn9"></div>
+                    <script type="text/javascript">
+                        document.getElementById("btn9").onclick = function () {            
+                            localStorage.color = document.getElementById("btn9").style.background;
+                            location.href="blue1.html"}
+                    </script>
+                    <div class="panel-body text-left">
+                        <p class="panel-body_Color_Category">0009</p>
+                        <p class="panel-body_small"><small class="colorcode" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">BLUE</small></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:navy"  id="btn10"></div>
+                    <script type="text/javascript">
+                        document.getElementById("btn10").onclick = function () {            
+                            localStorage.color = document.getElementById("btn10").style.background;
+                            location.href="navy1.html"}
+                    </script>
+                    <div class="panel-body text-left">
+                        <p class="panel-body_Color_Category">0010</p>
+                        <p class="panel-body_small"><small class="colorcode" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">NAVY</small></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:purple"  id="btn11"></div>
+                    <script type="text/javascript">
+                        document.getElementById("btn11").onclick = function () {            
+                            localStorage.color = document.getElementById("btn11").style.background;
+                            location.href="purple1.html"}
+                    </script>
+                    <div class="panel-body text-left">
+                        <p class="panel-body_Color_Category">0011</p>
+                        <p class="panel-body_small"><small class="colorcode" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">PURPLE</small></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:fuchsia"  id="btn12"></div>
+                    <script type="text/javascript">
+                        document.getElementById("btn12").onclick = function () {            
+                            localStorage.color = document.getElementById("btn12").style.background;
+                            location.href="fuchsia1.html"}
+                    </script>
+                    <div class="panel-body text-left">
+                        <p class="panel-body_Color_Category">0012</p>
+                        <p class="panel-body_small"><small class="colorcode" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">FUCHSIA</small></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:white" id="btn13"></div>
+                    <script type="text/javascript">
+                        document.getElementById("btn13").onclick = function () {            
+                            localStorage.color = document.getElementById("btn13").style.background;
+                            location.href="white1.html"}
+                    </script>
+                    <div class="panel-body text-left">
+                        <p class="panel-body_Color_Category">0013</p>
+                        <p class="panel-body_small"><small class="colorcode" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">WHITE</small></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:silver" id="btn14"></div>
+                    <script type="text/javascript">
+                        document.getElementById("btn14").onclick = function () {            
+                            localStorage.color = document.getElementById("btn14").style.background;
+                            location.href="silver1.html"}
+                    </script>
+                    <div class="panel-body text-left">
+                        <p class="panel-body_Color_Category">0014</p>
+                        <p class="panel-body_small"><small class="colorcode" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">SILVER</small></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:grey"  id="btn15"></div>
+                    <script type="text/javascript">
+                        document.getElementById("btn15").onclick = function () {            
+                            localStorage.color = document.getElementById("btn15").style.background;
+                            location.href="grey1.html"}
+                    </script>
+                    <div class="panel-body text-left">
+                        <p class="panel-body_Color_Category">0015</p>
+                        <p class="panel-body_small"><small class="colorcode" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">GREY</small></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:black" id="btn16"></div>
+                    <script type="text/javascript">
+                        document.getElementById("btn16").onclick = function () {            
+                            localStorage.color = document.getElementById("btn16").style.background;
+                            location.href="black1.html"}
+                    </script>
+                    <div class="panel-body text-left">
+                        <p class="panel-body_Color_Category">0016</p>
+                        <p class="panel-body_small"><small class="colorcode" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">BLACK</small></p>
+                    </div>
+                </div>
+                <br/>
+                
+                
+                
+                
+                
+                <!-- 更新日期 -->
+                <p style="text-align: center">2021/11/13 规律失效 停止更新</p>
+                <!-- 今日颜色1 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:grey" id="btn101"></div>
+                    <script type="text/javascript">document.getElementById("btn101").onclick = function () {            
+                            localStorage.color = document.getElementById("btn101").style.background;
+                            location.href="out.html"}</script><div class="panel-body text-left"><br/>
+                        <p class="panel-body_medium">10:00&nbsp;&nbsp;14:00</p><br/>
+                        <p class="panel-body_medium">18:00&nbsp;&nbsp;22:00</p></div></div>
+                <!-- 今日颜色2 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:grey" id="btn102"></div>
+                    <script type="text/javascript">document.getElementById("btn102").onclick = function () {            
+                            localStorage.color = document.getElementById("btn102").style.background;
+                            location.href="out.html"}</script><div class="panel-body text-left"><br/>
+                        <p class="panel-body_medium">11:00&nbsp;&nbsp;15:00</p><br/>
+                        <p class="panel-body_medium">19:00&nbsp;&nbsp;23:00</p></div></div><br/>
+                <!-- 今日颜色3 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:grey" id="btn103"></div>
+                    <script type="text/javascript">document.getElementById("btn103").onclick = function () {            
+                            localStorage.color = document.getElementById("btn103").style.background;
+                            location.href="out.html"}</script><div class="panel-body text-left"><br/>
+                        <p class="panel-body_medium">12:00&nbsp;&nbsp;16:00</p><br/>
+                        <p class="panel-body_medium">20:00&nbsp;&nbsp;24:00</p></div></div>
+                <!-- 今日颜色4 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background:grey" id="btn104"></div>
+                    <script type="text/javascript">document.getElementById("btn104").onclick = function () {            
+                            localStorage.color = document.getElementById("btn104").style.background;
+                            location.href="out.html"}</script><div class="panel-body text-left"><br/>
+                        <p class="panel-body_medium">13:00&nbsp;&nbsp;17:00</p><br/>
+                        <p class="panel-body_medium">21:00</p></div></div>
+                <br/><br/>
+                <div class="weui-footer">
+                    <p style="font-size:xx-small; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Designed by Valerii &copy;</p>
+                </div>
+</body>
+</html>

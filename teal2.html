@@ -22,13 +22,18 @@
     <div id="bodyDiv">
         <p id="myColorUI" style="text-align: center; background: teal;"><br>
             <input type="image" src="pass1.png" width="330px" height="225px" alt=""><br>
-            <font style="font-size:97px">
+            <font style="font-size:97px" id="t">
                 <script type="text/javascript">
+                    setInterval(function(){
                     var t = new Date();
-                    var hour = t.getHours();
-                    var minute = t.getMinutes();
-                    var second = t.getSeconds();
-                    var nowTime = hour + ((minute < 10) ? ":0" : ":") + minute + ((second < 10) ? ":0" : ":") + second;
+                    var hour = checkTime(t.getHours());
+                    var minute = checkTime(t.getMinutes());
+                    var second = checkTime(t.getSeconds());
+                    function checkTime(i){
+                        if(i<10) return "0"+i;
+                        return i;}
+                    var box = document.getElementById("t");
+                    box.innerHTML=hour + (":") + minute + (":") + second;},1000);
                     document.write(nowTime);
                 </script></font></p>
         <div class="weui-cells__title">学生返校通行证</div>

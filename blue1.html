@@ -10,32 +10,14 @@
 	<meta http-equiv="Expires" content="0" />
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
     <link rel="stylesheet" href="weui.min.css">
-    <script language="javascript">
-        history.pushState(null, null, document.URL);
-        window.addEventListener('popstate', function () {
-            history.pushState(null, null, document.URL)
-        });
-    </script>
+    <script type="text/javascript" src="boring.js" ></script>
 </head>
 
 <body ontouchstart="">
     <div id="bodyDiv">
         <p id="myColorUI" style="text-align: center; background: blue;"><br>
             <img src="pass2.png" width="330px" height="225px"><br>    
-            <font style="font-size:97px" id="t">
-                <script type="text/javascript">
-                    setInterval(function(){
-                    var t = new Date();
-                    var hour = checkTime(t.getHours());
-                    var minute = checkTime(t.getMinutes());
-                    var second = checkTime(t.getSeconds());
-                    function checkTime(i){
-                        if(i<10) return "0"+i;
-                        return i;}
-                    var box = document.getElementById("t");
-                    box.innerHTML=hour + (":") + minute + (":") + second;},1000);
-                    document.write(nowTime);
-                </script></font></p>
+            <font style="font-size:97px" id="t"></font></p>
         <div class="weui-cells__title">学生出校通行证</div>
         <div class="weui-cells">
             <div class="weui-cell  weui-cell_example">
